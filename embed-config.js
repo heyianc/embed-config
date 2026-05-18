@@ -13,7 +13,22 @@ window.HEYIANC_EMBED = `
 
 
 
-<iframe border="0" src="https://www.trip.com/partners/ad/DB16832741?Allianceid=5435466&SID=118984048&trip_sub1=" style="width:728px;height:90px" frameborder="0" scrolling="no" style="border:none" id="DB16832741"></iframe>
+<ins class="klk-aff-widget"  data-adid="1258954" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="19" data-tid="2" data-amount="3" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>
+
 
 
 `;
