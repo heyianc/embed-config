@@ -14,7 +14,6 @@ window.HEYIANC_EMBED = `
 /* ▼▼▼ PASTE YOUR EMBED CODE HERE ▼▼▼ */
 
 <iframe border="0" src="https://www.trip.com/partners/ad/DB16832741?Allianceid=5435466&SID=118984048&trip_sub1=" style="width:728px;height:90px" frameborder="0" scrolling="no" style="border:none" id="DB16832741"></iframe>
-
 /* ▲▲▲ END OF EMBED CODE ▲▲▲ */
 
 `;
