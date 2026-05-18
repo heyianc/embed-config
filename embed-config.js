@@ -1,34 +1,86 @@
 /**
- * heyianc.net — Universal Embed Config
+ * heyianc.net — Embed Config
  * Hosted at: heyianc.github.io/embed-config/embed-config.js
  *
  * HOW TO UPDATE:
- * 1. Delete everything between the ▼ START and ▲ END markers
- * 2. Paste your new embed code there
+ * 1. Find the destination key you want to change (TW, HK, SG, JP, VN)
+ * 2. Replace the embed code between the ▼ START and ▲ END markers
  * 3. Save and push to GitHub
- * 4. All Ghost articles update automatically
+ * 4. All Ghost articles using that key update automatically
+ *
+ * GHOST HTML CARD — set data-slot to the key you want:
+ * data-slot="TW"  → Taiwan articles
+ * data-slot="HK"  → Hong Kong articles
+ * data-slot="SG"  → Singapore articles
+ * data-slot="JP"  → Japan articles
+ * data-slot="VN"  → Vietnam articles
  */
 
-window.HEYIANC_EMBED = `
+window.HEYIANC_EMBEDS = {
+
+  /* ═══════════════════════════════════════════════════
+     TW — Taiwan
+  ═══════════════════════════════════════════════════ */
+  TW: `
+
+    /* ▼▼▼ PASTE TAIWAN EMBED CODE HERE ▼▼▼ */
 
 
 
-<ins class="klk-aff-widget"  data-adid="1258954" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="19" data-tid="2" data-amount="3" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
-<script type="text/javascript">
-  (function (d, sc, u) {
-    var s = d.createElement(sc),
-      p = d.getElementsByTagName(sc)[0];
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = u;
-    p.parentNode.insertBefore(s, p);
-  })(
-    document,
-    "script",
-    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
-  );
-</script>
+    /* ▲▲▲ END OF TAIWAN EMBED CODE ▲▲▲ */
+
+  `,
+
+  /* ═══════════════════════════════════════════════════
+     HK — Hong Kong
+  ═══════════════════════════════════════════════════ */
+  HK: `
+
+    /* ▼▼▼ PASTE HONG KONG EMBED CODE HERE ▼▼▼ */
 
 
 
-`;
+    /* ▲▲▲ END OF HONG KONG EMBED CODE ▲▲▲ */
+
+  `,
+
+  /* ═══════════════════════════════════════════════════
+     SG — Singapore
+  ═══════════════════════════════════════════════════ */
+  SG: `
+
+    /* ▼▼▼ PASTE SINGAPORE EMBED CODE HERE ▼▼▼ */
+
+
+
+    /* ▲▲▲ END OF SINGAPORE EMBED CODE ▲▲▲ */
+
+  `,
+
+  /* ═══════════════════════════════════════════════════
+     JP — Japan
+  ═══════════════════════════════════════════════════ */
+  JP: `
+
+    /* ▼▼▼ PASTE JAPAN EMBED CODE HERE ▼▼▼ */
+
+
+
+    /* ▲▲▲ END OF JAPAN EMBED CODE ▲▲▲ */
+
+  `,
+
+  /* ═══════════════════════════════════════════════════
+     VN — Vietnam
+  ═══════════════════════════════════════════════════ */
+  VN: `
+
+    /* ▼▼▼ PASTE VIETNAM EMBED CODE HERE ▼▼▼ */
+
+
+
+    /* ▲▲▲ END OF VIETNAM EMBED CODE ▲▲▲ */
+
+  `
+
+};
