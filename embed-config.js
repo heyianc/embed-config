@@ -4,9 +4,8 @@
  *
  * HOW TO UPDATE:
  * 1. Find the destination key you want to change (TW, HK, SG, JP, VN)
- * 2. Replace the embed code between the ▼ START and ▲ END markers
- * 3. Save and push to GitHub
- * 4. All Ghost articles using that key update automatically
+ * 2. Replace the empty string with your embed code
+ * 3. Save and push to GitHub — all articles update automatically
  *
  * GHOST HTML CARD — set data-slot to the key you want:
  * data-slot="TW"  → Taiwan articles
@@ -18,69 +17,19 @@
 
 window.HEYIANC_EMBEDS = {
 
-  /* ═══════════════════════════════════════════════════
-     TW — Taiwan
-  ═══════════════════════════════════════════════════ */
-  TW: `
+  // ── TW — Taiwan ──────────────────────────────────────
+  TW: ``,
 
-    /* ▼▼▼ PASTE TAIWAN EMBED CODE HERE ▼▼▼ */
+  // ── HK — Hong Kong ───────────────────────────────────
+  HK: ``,
 
+  // ── SG — Singapore ───────────────────────────────────
+  SG: ``,
 
+  // ── JP — Japan ───────────────────────────────────────
+  JP: ``,
 
-    /* ▲▲▲ END OF TAIWAN EMBED CODE ▲▲▲ */
-
-  `,
-
-  /* ═══════════════════════════════════════════════════
-     HK — Hong Kong
-  ═══════════════════════════════════════════════════ */
-  HK: `
-
-    /* ▼▼▼ PASTE HONG KONG EMBED CODE HERE ▼▼▼ */
-
-
-
-    /* ▲▲▲ END OF HONG KONG EMBED CODE ▲▲▲ */
-
-  `,
-
-  /* ═══════════════════════════════════════════════════
-     SG — Singapore
-  ═══════════════════════════════════════════════════ */
-  SG: `
-
-    /* ▼▼▼ PASTE SINGAPORE EMBED CODE HERE ▼▼▼ */
-
-
-
-    /* ▲▲▲ END OF SINGAPORE EMBED CODE ▲▲▲ */
-
-  `,
-
-  /* ═══════════════════════════════════════════════════
-     JP — Japan
-  ═══════════════════════════════════════════════════ */
-  JP: `
-
-    /* ▼▼▼ PASTE JAPAN EMBED CODE HERE ▼▼▼ */
-
-
-
-    /* ▲▲▲ END OF JAPAN EMBED CODE ▲▲▲ */
-
-  `,
-
-  /* ═══════════════════════════════════════════════════
-     VN — Vietnam
-  ═══════════════════════════════════════════════════ */
-  VN: `
-
-    /* ▼▼▼ PASTE VIETNAM EMBED CODE HERE ▼▼▼ */
-
-
-
-    /* ▲▲▲ END OF VIETNAM EMBED CODE ▲▲▲ */
-
-  `
+  // ── VN — Vietnam ─────────────────────────────────────
+  VN: ``
 
 };
