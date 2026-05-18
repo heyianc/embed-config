@@ -18,9 +18,7 @@
 window.HEYIANC_EMBEDS = {
 
   // ── TW — Taiwan ──────────────────────────────────────
-  TW: ``,
-
-<ins class="klk-aff-widget"  data-adid="1258954" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="19" data-tid="2" data-amount="3" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
+  TW: `<ins class="klk-aff-widget"  data-adid="1258954" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="19" data-tid="2" data-amount="3" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
 <script type="text/javascript">
   (function (d, sc, u) {
     var s = d.createElement(sc),
@@ -35,8 +33,8 @@ window.HEYIANC_EMBEDS = {
     "https://affiliate.klook.com/widget/fetch-iframe-init.js"
   );
 </script>
+`,
 
-  
   // ── HK — Hong Kong ───────────────────────────────────
   HK: ``,
 
