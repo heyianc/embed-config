@@ -37,10 +37,40 @@ window.HEYIANC_EMBEDS = {
 `,
 
   // ── HK — Hong Kong ───────────────────────────────────
-  HK: ``,
+  HK: `<ins class="klk-aff-widget"  data-adid="1280104" data-lang="en-US" data-currency="PHP" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="2" data-tid="" data-amount="6" data-prod="hotel_dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>
+`,
 
   // ── SG — Singapore ───────────────────────────────────
-  SG: ``,
+  SG: `<ins class="klk-aff-widget"  data-adid="1280104" data-lang="en-US" data-currency="PHP" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="6" data-tid="" data-amount="6" data-prod="hotel_dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>
+`,
 
   // ── JP — Japan ───────────────────────────────────────
   JP: ``,
