@@ -23,40 +23,12 @@ window.HEYIANC_EMBEDS = {
 `,
 
   // ── HK — Hong Kong ───────────────────────────────────
-  HK: `<ins class="klk-aff-widget"  data-adid="1280125" data-lang="en-US" data-currency="PHP" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="2" data-tid="" data-amount="6" data-prod="hotel_dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
-<script type="text/javascript">
-  (function (d, sc, u) {
-    var s = d.createElement(sc),
-      p = d.getElementsByTagName(sc)[0];
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = u;
-    p.parentNode.insertBefore(s, p);
-  })(
-    document,
-    "script",
-    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
-  );
-</script>
+  HK: `<div data-gyg-href="https://widget.getyourguide.com/default/activities.frame" data-gyg-location-id="174" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="6" data-gyg-partner-id="LJ9X3TQ"><span>Powered by <a target="_blank" rel="sponsored" href="https://www.getyourguide.com/hong-kong-l174/">GetYourGuide</a></span></div>
 
 `,
 
   // ── SG — Singapore ───────────────────────────────────
-  SG: `<ins class="klk-aff-widget"  data-adid="1280128" data-lang="en-US" data-currency="PHP" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="6" data-tid="" data-amount="6" data-prod="hotel_dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
-<script type="text/javascript">
-  (function (d, sc, u) {
-    var s = d.createElement(sc),
-      p = d.getElementsByTagName(sc)[0];
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = u;
-    p.parentNode.insertBefore(s, p);
-  })(
-    document,
-    "script",
-    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
-  );
-</script>
+  SG: `<div data-gyg-href="https://widget.getyourguide.com/default/activities.frame" data-gyg-location-id="170" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="6" data-gyg-partner-id="LJ9X3TQ"><span>Powered by <a target="_blank" rel="sponsored" href="https://www.getyourguide.com/singapore-l170/">GetYourGuide</a></span></div>
 
 `,
 
